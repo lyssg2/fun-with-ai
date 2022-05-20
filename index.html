@@ -1,12 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fun with A1</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fun with AI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
+<nav class="blue-grey darken-3">
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">Fun with AI</a>
+    </div>
+</nav>
+
 <body>
-    
+    <div class="container row">
+
+        <div class="center-align">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="user-prompt" class="materialize-textarea"></textarea>
+                        <label for="user-prompt">Prompt</label>
+
+                        <div class="form-group right-align">
+                            <button class="btn btn-primary" type="submit" id="submit-prompt-btn">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="row center-align">
+            <h4>Responses</h4>
+        </div>
+
+        <!-- <div class="progress">
+            <div class="indeterminate"></div>
+        </div> -->
+
+        <div>
+            <div class="col s12">
+                <div class="card-panel amber">
+                    <h6>Prompt:</h6>
+                    <h6>Response:</h6>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src=" https://code.jquery.com/jquery-3.6.0.js " integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin=" anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
